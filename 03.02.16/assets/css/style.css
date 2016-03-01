@@ -1,0 +1,422 @@
+.col-100 {
+  width: 100%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+.col-33 {
+  width: 33.3333%;
+}
+
+.col-66 {
+  width: 66.6666%;
+}
+
+.col-75 {
+  width: 75%;
+}
+.col-65{
+  width: 65%;
+}
+.col-15 {
+  width: 15%;
+}
+.col-35 {
+  width: 35%;
+}
+.col-40{
+  width: 40%;
+}
+.col-10 {
+  width: 10%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after,
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.cf:after,
+.row:after {
+  clear: both;
+}
+
+[class^="col-"],
+[class*=" col-"] {
+  float: left;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+}
+.menu-button{
+  position: absolute;
+  left: 0;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vertical {
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.vertical .inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header {
+  height: 100%;
+  background: url('../img/desert.jpg') no-repeat;
+  background-size: cover;
+}
+
+.navigation-bar {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+.navigation {
+  padding: 0;
+  list-style: none;
+}
+
+.navigation > li {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+}
+
+.navigation > li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.navigation a{
+  display: inline-block;
+
+}
+.nav-button {
+  top:10%;
+  position: absolute;
+  right: 0;
+}
+
+.nav-btn{
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 10px;
+    float: right;
+}
+img {
+  float: left;
+}
+
+.header-footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+}
+.footer-content{
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+.footer-btn{
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-size: 12px;
+    background-color: white;
+    border: 1px solid black;
+  }
+.footer-link{
+  margin-left: 10px;
+  color: white;
+  font-size: 12px;
+}
+.footer-title{
+  color: white;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.footer-subtitle{
+  color: white;
+  margin-top: 0;
+  font-size: 17px;
+}
+
+.title {
+  margin-bottom: 5px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.hero-unit {
+  text-align: center;
+  color: white;
+}
+
+.hero-unit .title {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 74px;
+  text-transform: none;
+}
+
+.hero-unit .sub-title {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 12px 16px;
+  color: white;
+  background-color: #c2c2c2;
+  border: 1px solid #B1B1B1;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background-color: #2F90EF;
+  border-color: #1061AF;
+}
+
+.proof {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.proof .sub-title{
+  margin-top: 0;
+  font-style: italic;
+  color: #981818;
+  text-transform: uppercase;
+
+}
+.proof .call-action {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.adventures-list .adventure-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.adventures-list .adventure-item .action {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.adventures-list .adventure-item .outer {
+    position: relative;
+    height: 350px;
+    /*background-color: yellow;*/
+}
+
+.adventures-list .adventure-item .inner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    /*background-color: green;*/
+    width: 100%;
+    text-align: center;
+}
+
+.slide-show{
+  position: relative;
+  height: 500px;
+  width: 98%;
+  margin: auto;
+  margin: 0 auto;
+}
+.slide1{
+  display: none;
+  background: url('../img/seaside.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slide2{
+  display: none;
+  background: url('../img/seaside2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.slide3{
+  display: none;
+  background: url('../img/seaside3.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.active {
+  display: flex;
+}
+
+.arrow-btn{
+  background: transparent;
+  color: white;
+  font-size: 30px;
+  border: 1px solid white;
+  padding: 25px 25px;
+}
+.left{
+  position: absolute;
+  left: 0;
+  top: 42%;
+}
+.right{
+  position: absolute;
+  right: 0;
+  top: 42%;
+}
+.text-slide-show{
+  font-size: 40px;
+  color: white;
+  width:40%;
+  text-align: center;
+}
+.countries{
+  margin-left: 200px;
+}
+hr{
+  width: 30px;
+}
+.magic{
+  margin-bottom: 0;
+}
+.description{
+  font-size: 15px;
+  color: white;
+}
+.read-more-btn{
+  border-radius: 30px;
+  padding: 5px 30px;
+  font-size: 12px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.image-list-content{
+  width: 70%;
+  margin: auto;
+}
+.image-list-content img{
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.motto{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  color:#981818;
+  font-style: italic;
+}
+.motto2{
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.motto3{
+  font-size: 9px;
+  color: #B9B1B1;
+}
+.footer-info{
+  width: 70%;
+  margin: auto;
+}
+.footer{
+  margin-top: 90px;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  color: white;
+  background-color: #353535;
+}
+.footer-info a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 14px;
+}
+.footer-input{
+  line-height: 10px;
+  background-color: #353535;
+  width: 350px;
+  margin-bottom: 25px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #656262;
+}
+input::-webkit-input-placeholder {
+color: #BD412F;
+font-style: italic;
+font-size: 17px;
+font-family: 'Lobster', cursive;
+}
+.subscribe-btn{
+  background-color: #656262;
+  color: white;
+  padding: 7px 50px 7px 50px;
+  border-radius: 30px;
+  font-style: italic;
+  border: none;
+}
+.footer2{
+  font-size: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #b3b3b3;
+  background-color: #1a1a1a;
+}

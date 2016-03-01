@@ -1,0 +1,22 @@
+h1{
+  margin-bottom: 30px;
+  text-align: center;
+  color: black;
+  font-size: 24px;
+}
+
+img{
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+p{
+  overflow: hidden;
+}
+a{
+  color: green;
+}
+a:hover{
+  color: red;
+}

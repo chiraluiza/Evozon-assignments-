@@ -1,0 +1,505 @@
+.col-100 {
+  width: 100%;
+}
+.col-80{
+  width: 80%;
+}
+.col-50 {
+  width: 50%;
+}
+.col-70{
+  width: 70%;
+}
+
+.col-60{
+  width: 60%;
+}
+.col-40{
+  width: 40%;
+}
+.col-25 {
+  width: 25%;
+}
+.col-30{
+  width: 30%;
+}
+
+.col-33 {
+  width: 33.3333%;
+  text-align: center;
+}
+
+.col-66 {
+  width: 66.6666%;
+}
+
+.col-75 {
+  width: 75%;
+}
+.col-15 {
+  width: 15%;
+}
+.col-35 {
+  width: 35%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.col-20 {
+  width: 20%;
+}
+.col-23{
+  width: 23%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.cf:before,
+.cf:after,
+.row:before,
+.row:after {
+    content: "";
+    display: table;
+}
+
+.cf:after,
+.row:after {
+  clear: both;
+}
+
+[class^="col-"],
+[class*=" col-"] {
+  float: left;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  position: relative;
+}
+
+html,
+body {
+  height: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+.cf{
+  clear: both;
+}
+.vertical {
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.vertical .inner {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.header {
+  height: 90%;
+  background: url('../img/light.jpg') no-repeat center;
+  background-size: cover;
+
+}
+
+.navigation-bar {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background-color: white;
+}
+.nav-item-left {
+  display: inline;
+  float: left;
+  margin-right: 60px;
+  margin-top: 35px;
+  text-decoration: none;
+  color: rgb(169, 169, 169);
+}
+.first{
+  height: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  padding: 22px;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+.nav-item-right{
+  display: inline;
+  float: right;
+  margin-top: 35px;
+  margin-right: 40px;
+  text-decoration: none;
+  color: rgb(169, 169, 169);
+}
+.image{
+  margin-top: 27px;
+}
+.loop{
+  border-right: 1px solid rgb(169, 169, 169);
+  padding-right: 40px;
+}
+.title{
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(37,37,37);
+  margin-bottom: 0;
+}
+.subtitle{
+  margin-left: 10%;
+  margin-top: 0;
+  color: rgb(169, 169, 169);
+  font-family: 'Candal', sans-serif;
+  font-size: 20px;
+}
+.logo-rwb{
+  position: absolute;
+  left: 46%;
+  top: 15%;
+}
+
+.hr2{
+  border: 1px solid rgb(169, 169, 169);
+  width: 70%;
+  float: left;
+}
+.hr1{
+  float: left;
+  width: 7%;
+  border: 1px solid rgb(173, 161, 119);
+}
+
+
+.container li{
+  display: inline;
+  text-decoration: none;
+  color:  rgb(102, 102, 102);
+  margin-right: 5%;
+}
+.container ul{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.container .item{
+  position: relative;
+}
+li:focus {
+  padding-left:20px;
+  padding-top: 350px;
+  padding-bottom: 40px;
+  padding-right: 300px;
+  outline: none;
+  color: black;
+  text-decoration: line-through;
+  transform: rotate(50deg);
+  border: 1px solid rgb(169, 169, 169);
+
+
+}
+.item{
+
+}
+.section1{
+  width: 70%;
+  margin: auto;
+  margin-top: 80px;
+}
+.section1-left-content{
+  position: relative;
+  height: 300px;
+  border: 1px solid rgb(169, 169, 169);
+}
+.section1-right-content{
+  height: 270px;
+  margin-top: 30px;
+  border-top: 1px solid  rgb(169, 169, 169);
+  border-bottom: 1px solid  rgb(169, 169, 169);
+}
+.section1-left-content-price{
+  height: 80px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  border-bottom: 1px solid  rgb(169, 169, 169);
+}
+.section2{
+  width: 70%;
+  margin: auto;
+}
+.section2-content1{
+  height: 270px;
+  border-right: 1px solid  rgb(169, 169, 169);
+  border-bottom: 1px solid  rgb(169, 169, 169);
+}
+
+.section2-content2{
+  height: 330px;
+  border-right: 1px solid  rgb(169, 169, 169);
+  border-bottom: 1px solid  rgb(169, 169, 169);
+}
+.section2-right-content{
+  height:600px;
+  border-bottom: 1px solid  rgb(169, 169, 169);
+}
+.section3{
+  height: 550px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.section4{
+  height:600px;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+}
+.slide-show{
+  position: relative;
+  overflow:hidden;
+  width: 100%;
+  height: 450px;
+  margin-top: 8%;
+}
+.middle-img{
+  margin-left: 20px;
+}
+.half-img{
+  position: absolute;
+  margin-left: 20px;
+}
+
+.image-no{
+  position: absolute;
+  width: 6%;
+  height: 15%;
+  bottom: 3px;
+  left: 15px;
+  padding: 15px;
+  color: white;
+  text-align: center;
+  background-color: rgb(173, 161, 119);
+}
+.image-title{
+  position: absolute;
+  margin-bottom: 17px;
+  bottom: 3px;
+  left: 90px;
+  width: 23%;
+  color: rgb(141,141,141);
+  font-size: 23px;
+  border-top: 1px solid rgb(141,141,141);
+  border-right: 1px solid rgb(141,141,141);
+  border-bottom: 1px solid rgb(141,141,141);
+  padding: 18px;
+}
+.section5-top{
+  width: 70%;
+  margin: auto;
+  height: 200px;
+  text-align: center;
+}
+.section5-middle{
+  width: 70%;
+  margin: auto;
+  height: 250px;
+}
+.section5-bottom{
+  width: 70%;
+  margin: auto;
+  height: 250px;
+  text-align: center;
+}
+.section6{
+  position: relative;
+  height: 300px;
+  background-color: rgb(220, 220, 220);
+}
+.price{
+  display: inline;
+  float: left;
+  color: rgb(141,141,141);
+  font-family: 'Candal', sans-serif;
+}
+.price-number{
+  display: inline;
+  float: right;
+  /*padding: 20px;*/
+  color: rgb(141,141,141);
+  font-family: 'Candal', sans-serif;
+  font-size: 17px;
+}
+.choose{
+  display: inline;
+  float: left;
+  color: rgb(141,141,141);
+  font-family: 'Candal', sans-serif;
+  padding-left: 35px;
+  padding-top: 40px;
+}
+.arrow{
+  display: inline;
+  float: right;
+  color: rgb(141,141,141);
+  padding-right: 35px;
+  padding-top: 40px;
+}
+.section1-left-content hr{
+  width: 90%;
+  color: rgb(169, 169, 169);
+  margin: 0;
+}
+.buy-btn{
+  height: 25%;
+  width: 93%;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: rgb(173, 161, 119);
+  border: 1px solid rgb(129, 117, 78);
+  color: white;
+  font-size: 17px;
+}
+.description-content{
+  padding: 50px;
+
+}
+#section-title{
+  margin-top: 0;
+  color: rgb(141,141,141);
+  font-family: 'Candal', sans-serif;
+  font-weight: bold;
+}
+#description{
+  line-height: 45px;
+  font-size: 18px;
+}
+.photos-section{
+  height: 600px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 45px;
+}
+.small-photos-section{
+  height: 600px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.small-img{
+  margin-top: 35px;
+}
+.section3-center{
+  margin-top: 30%;
+  width: 60%;
+  margin: auto;
+}
+.section3-title{
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 40px;
+}
+.section3-subtitle{
+  color: rgb(180, 180, 180);
+  font-size: 17px;
+}
+.section3-btn{
+  margin-top: 8%;
+  width: 60%;
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: rgb(102, 102, 102);
+}
+.section4-right{
+  width: 60%;
+  margin: auto;
+  margin-top: 30%;
+  color: white;
+  text-align: center;
+}
+.section5-title{
+  color: rgb(102, 102, 102);
+  margin-top: 100px;
+}
+.hr3{
+  margin-top: 20%;
+  width: 10%;
+  border: 1px solid rgb(173, 161, 119);
+}
+.hr4{
+  width: 15%;
+  border: 1px solid rgb(102, 102, 102);
+}
+.section4-arrows{
+  margin-top: 50px;
+  font-size: 30px;
+  color: rgb(102, 102, 102);
+}
+.middle-col{
+  border-left: 1px solid rgb(102, 102, 102);
+  border-right: 1px solid rgb(102, 102, 102);
+}
+.center-text{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 17px;
+  color: rgb(102, 102, 102);
+}
+.center-text hr{
+  width: 20%;
+}
+.section5-btn{
+  margin-top: 6%;
+  width: 40%;
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: rgb(102, 102, 102);
+}
+.section6-top, .section6-bottom{
+  height: 150px;
+  text-align: center;
+}
+
+.section6-top span{
+  color: black;
+  padding: 13px;
+  position: absolute;
+  margin-top: 4%;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Oswald', sans-serif;
+}
+.section6-bottom li{
+  display: inline;
+  text-decoration: none;
+  margin-right: 5%;
+}
+.section6-bottom a{
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
